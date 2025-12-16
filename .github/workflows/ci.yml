@@ -9,7 +9,7 @@ jobs:
     strategy:
       matrix:
         nim:
-          - '2.0.14'
+          - '2.2.4'
         os:
           - ubuntu-latest
           - windows-latest
