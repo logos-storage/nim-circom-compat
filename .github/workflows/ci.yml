@@ -33,7 +33,7 @@ jobs:
         run: rustup update stable && rustup default 1.85.0
 
       - name: Setup nim
-        uses: jiro4989/setup-nim-action@v1
+        uses: jiro4989/setup-nim-action@v2
         with:
           nim-version: ${{ matrix.nim }}
           repo-token: ${{ secrets.GITHUB_TOKEN }}
